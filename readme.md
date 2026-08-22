@@ -1,10 +1,6 @@
 # QR Code Generator
 
-Free, open-source QR code generator available as a **web app** and **Chrome extension**. Generate, download, and share QR codes instantly — no sign-up, no tracking.
-
-## Screenshots
-
-### Web App
+Free, open-source QR code generator available as a **web app** and **Chrome extension**. Generate, download, and share QR codes instantly: no sign-up, no tracking.
 
 | Landing Page | QR Generated |
 |:---:|:---:|
