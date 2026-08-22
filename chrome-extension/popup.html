@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>QR Code Generator</title>
+</head>
+<body>
+  <header>
+    <h1>QR Code Generator</h1>
+  </header>
+
+  <main>
+    <form id="generate-form">
+      <label for="url">Enter a URL</label>
+      <input
+        id="url"
+        type="url"
+        placeholder="https://example.com"
+        required
+      />
+
+      <label for="size">Size</label>
+      <select id="size">
+        <option value="150">150 x 150</option>
+        <option value="200">200 x 200</option>
+        <option value="300" selected>300 x 300</option>
+        <option value="400">400 x 400</option>
+      </select>
+
+      <button type="submit">Generate QR Code</button>
+    </form>
+
+    <!-- Spinner -->
+    <div id="spinner" class="hidden">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- QR Output -->
+    <div id="output" class="hidden">
+      <div id="qr-container"></div>
+      <div class="btn-row">
+        <button id="save-btn">Save Image</button>
+        <button id="copy-btn">Copy to Clipboard</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="qr-creator.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

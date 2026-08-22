@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" stroke="#0f172a" stroke-width="2" fill="#fff"/>
+  <!-- Top-left finder -->
+  <rect x="5" y="5" width="8" height="8" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <rect x="7" y="7" width="4" height="4" fill="#ef4444"/>
+  <!-- Top-right finder -->
+  <rect x="19" y="5" width="8" height="8" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <rect x="21" y="7" width="4" height="4" fill="#ef4444"/>
+  <!-- Bottom-left finder -->
+  <rect x="5" y="19" width="8" height="8" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <rect x="7" y="21" width="4" height="4" fill="#ef4444"/>
+  <!-- Center data modules -->
+  <rect x="15" y="15" width="3" height="3" fill="#0f172a"/>
+  <rect x="15" y="5" width="2" height="2" fill="#0f172a"/>
+  <rect x="19" y="15" width="2" height="2" fill="#0f172a"/>
+  <rect x="5" y="15" width="2" height="2" fill="#0f172a"/>
+  <rect x="15" y="19" width="2" height="2" fill="#0f172a"/>
+  <rect x="23" y="15" width="2" height="2" fill="#0f172a"/>
+  <rect x="23" y="19" width="2" height="2" fill="#0f172a"/>
+  <rect x="19" y="23" width="2" height="2" fill="#0f172a"/>
+  <rect x="19" y="19" width="2" height="2" fill="#ef4444"/>
+</svg>

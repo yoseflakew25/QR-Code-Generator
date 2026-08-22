@@ -1,0 +1,26 @@
+{
+  "name": "qr-code-generator-next",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:ext": "node scripts/build-extension.js",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.3.2",
+    "qr-creator": "^1.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.5.4"
+  }
+}
